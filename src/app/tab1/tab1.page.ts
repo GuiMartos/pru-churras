@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  cara = 'assets/cara.png';
+  coroa = 'assets/coroa.png';
+  logo = 'assets/logo.png';
+  image = this.logo;
+  info = 'Clique no botão para jogar';
+
   constructor() {}
 
 }
