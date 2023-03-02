@@ -15,4 +15,14 @@ export class Tab1Page {
 
   constructor() {}
 
+  jogarMoeda(){
+    if (Math.random() <0.5){
+    this.image = this.cara;
+    this.info = 'Cara!';
+  } else{
+    this.image = this.coroa;
+    this.info ='Coroa!'
+  }
+  }
+
 }
