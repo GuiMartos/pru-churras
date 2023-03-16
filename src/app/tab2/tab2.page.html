@@ -7,29 +7,29 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <h4 class="ion-text-center">Valendo: 1</h4>
+  <h4 class="ion-text-center">Valendo: {{numero}}</h4>
   <ion-grid>
 
     <ion-row>
       <ion-col></ion-col>
       <ion-col>
-        <ion-button size="default">1</ion-button>
+        <ion-button (click)="mudarNumero()" size="default">1</ion-button>
       </ion-col>
 
       <ion-col>
-        <ion-button size="default">3</ion-button>
+        <ion-button (click)="mudarNumero3()" size="default">3</ion-button>
       </ion-col>
 
       <ion-col>
-        <ion-button size="default">6</ion-button>
+        <ion-button (click)="mudarNumero6()" size="default">6</ion-button>
       </ion-col>
 
       <ion-col>
-        <ion-button size="default">9</ion-button>
+        <ion-button (click)="mudarNumero9()" size="default">9</ion-button>
       </ion-col>
 
       <ion-col>
-        <ion-button size="default">12</ion-button>
+        <ion-button (click)="mudarNumero12()" size="default">12</ion-button>
       </ion-col>
       <ion-col></ion-col>
 
