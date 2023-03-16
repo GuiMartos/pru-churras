@@ -79,20 +79,20 @@
         <h4>Time 1</h4>
       </ion-col>
       <ion-col>
-        <h4>0</h4>
+        <h4>{{partida1}}</h4>
       </ion-col>
     </ion-row>
 
     <ion-row>
       <ion-col>
-        <h4>Time 1</h4>
+        <h4>Time 2</h4>
       </ion-col>
       <ion-col>
-        <h4>0</h4>
+        <h4>{{partida2}}</h4>
       </ion-col>
     </ion-row>
   </ion-grid>
 
-  <ion-button expand="full">Limpar</ion-button>
+  <ion-button (click)="limparVariaveis()" expand="full">Limpar</ion-button>
 
 </ion-content>

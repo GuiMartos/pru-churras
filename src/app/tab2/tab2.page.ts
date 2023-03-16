@@ -12,6 +12,9 @@ export class Tab2Page {
   numero= 1;
   ponto1=0;
   ponto2=0;
+  partida1=0;
+  partida2=0;
+
 
  //Valendo
   mudarNumero(){
@@ -37,13 +40,26 @@ export class Tab2Page {
 
   //Pontos
   maisPonto(){
-    this.ponto1+=this.numero;
-
+    if(this.ponto1<=12){
+      this.ponto1+=this.numero;
+      }
+      if(this.ponto1==12){
+          this.partida1=+1
+          this.ponto1=0;
+          this.ponto2=0;
+        }
 
     }
 
   maisPonto2(){
+    if(this.ponto2<=12){
     this.ponto2+=this.numero;
+    }
+    if(this.ponto2==12){
+      this.partida2=+1
+      this.ponto1=0;
+      this.ponto2=0;
+    }
   }
 
   menosPonto(){
@@ -53,12 +69,19 @@ export class Tab2Page {
     }
 
   menosPonto2(){
-    if(this.ponto1>=1){
-      this.ponto1-=this.numero;
+    if(this.ponto2>=1){
+      this.ponto2-=this.numero;
     }
   }
   //Fim dos pontos
 
+ limparVariaveis(){
+  this.numero= 1;
+  this.ponto1=0;
+  this.ponto2=0;
+  this.partida1=0;
+  this.partida2=0;
+ }
 }
 
 
