@@ -44,7 +44,7 @@ export class Tab2Page {
       this.ponto1+=this.numero;
       }
       if(this.ponto1==12){
-          this.partida1=+1
+          this.partida1+=1
           this.ponto1=0;
           this.ponto2=0;
         }
@@ -56,7 +56,7 @@ export class Tab2Page {
     this.ponto2+=this.numero;
     }
     if(this.ponto2==12){
-      this.partida2=+1
+      this.partida2+=1
       this.ponto1=0;
       this.ponto2=0;
     }
