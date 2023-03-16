@@ -15,45 +15,48 @@ export class Tab2Page {
 
  //Valendo
   mudarNumero(){
-    this.numero=1
+    this.numero=1;
   }
 
   mudarNumero3(){
-    this.numero=3
+    this.numero=3;
   }
 
   mudarNumero6(){
-    this.numero=6
+    this.numero=6;
   }
 
   mudarNumero9(){
-    this.numero=9
+    this.numero=9;
   }
 
   mudarNumero12(){
-    this.numero=12
+    this.numero=12;
   }
   //Fim do valendo
 
   //Pontos
   maisPonto(){
-    this.ponto1+=this.numero
+    this.ponto1+=this.numero;
+
 
     }
 
   maisPonto2(){
-    this.ponto2+=this.numero
+    this.ponto2+=this.numero;
   }
 
   menosPonto(){
-    this.ponto1-=this.numero
-
+      if(this.ponto1>=1){
+        this.ponto1-=this.numero;
+      }
     }
 
   menosPonto2(){
-    this.ponto2-=this.numero
+    if(this.ponto1>=1){
+      this.ponto1-=this.numero;
+    }
   }
-
   //Fim dos pontos
 
 }
