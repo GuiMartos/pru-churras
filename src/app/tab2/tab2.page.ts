@@ -11,6 +11,7 @@ export class Tab2Page {
 
   numero= 1;
 
+ //Mudando o valendo
   mudarNumero(){
     this.numero=1
   }
@@ -30,4 +31,7 @@ export class Tab2Page {
   mudarNumero12(){
     this.numero=12
   }
+  //Fim do valendo
+
+
 }
