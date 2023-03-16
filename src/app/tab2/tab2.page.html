@@ -46,20 +46,20 @@
       <ion-col></ion-col>
       <ion-col>
         <h4>Time 1</h4>
-        <ion-button size="default">+</ion-button>
+        <ion-button (click)="maisPonto()" size="default">+</ion-button>
         <ion-row>
-          <h3>0</h3>
+          <h3>{{ponto1}}</h3>
         </ion-row>
-        <ion-button size="default">-</ion-button>
+        <ion-button (click)="menosPonto()" size="default">-</ion-button>
       </ion-col>
 
       <ion-col></ion-col>
 
       <ion-col>
         <h4>Time 2</h4>
-        <ion-button size="default">+</ion-button>
-        <h3>0</h3>
-        <ion-button size="default">-</ion-button>
+        <ion-button (click)="maisPonto2()" size="default">+</ion-button>
+        <h3>{{ponto2}}</h3>
+        <ion-button (click)="menosPonto2()" size="default">-</ion-button>
       </ion-col>
       <ion-col></ion-col>
     </ion-row>

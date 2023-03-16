@@ -10,8 +10,10 @@ export class Tab2Page {
   constructor() {}
 
   numero= 1;
+  ponto1=0;
+  ponto2=0;
 
- //Mudando o valendo
+ //Valendo
   mudarNumero(){
     this.numero=1
   }
@@ -33,5 +35,30 @@ export class Tab2Page {
   }
   //Fim do valendo
 
+  //Pontos
+  maisPonto(){
+    this.ponto1+=this.numero
+
+    }
+
+  maisPonto2(){
+    this.ponto2+=this.numero
+  }
+
+  menosPonto(){
+    this.ponto1-=this.numero
+
+    }
+
+  menosPonto2(){
+    this.ponto2-=this.numero
+  }
+
+  //Fim dos pontos
 
 }
+
+
+
+
+
