@@ -47,6 +47,7 @@ export class Tab2Page {
           this.partida1+=1
           this.ponto1=0;
           this.ponto2=0;
+          this.numero= 1;
         }
 
     }
@@ -59,6 +60,7 @@ export class Tab2Page {
       this.partida2+=1
       this.ponto1=0;
       this.ponto2=0;
+      this.numero= 1;
     }
   }
 
