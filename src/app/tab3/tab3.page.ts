@@ -9,4 +9,8 @@ export class Tab3Page {
 
   constructor() {}
 
+  dado='assets/dado.png';
+  dadom='assets/gifdado.gif';
+  valord=0;
+  tamanhod=0;
 }

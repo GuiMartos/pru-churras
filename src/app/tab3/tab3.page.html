@@ -1,17 +1,20 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Rolagem de Dados
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="light">
+  <br>
+  <ion-item fill="outline">
+    <ion-label position="floating">Insira o tamanho do dado</ion-label>
+    <ion-input placeholder="Valor do dado"></ion-input>
+  </ion-item>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <img src="assets/dado.png" alt="">
+ <h4> {{valord}} </h4>
+
+ <ion-button expand="block">Jogar o dado!</ion-button>
 </ion-content>
